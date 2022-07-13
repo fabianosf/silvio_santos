@@ -1,0 +1,82 @@
+/*Fonte padrao do site todo*/
+
+html {
+	font-family: Helvetica;
+	background-color: #DDD;
+}
+
+
+/* esse container abraca todo o projeto...ela tera o fundo branco e largura pre-definida de 1200px e cor branco  */
+.container {
+	max-width: 1200px;
+	position: relative;/* centralizando */
+	margin-left: auto; /*ajustando a margem*/
+	margin-right: auto; /*ajustando a margem*/
+	padding: 20px 50px; /* descolando do canto  */
+	margin: 50px; /* margem pra descolar do topo e do fundo  */
+	background-color: #FFF;
+}
+
+.destaque {
+	font-weight: bold;
+}
+
+/* cabecalho  */
+.cabecalho {
+	text-align: center;	
+}
+
+.titulo-principal {
+	font-size: 40px;
+}
+
+.paragrafo-principal {
+	font-style: italic;
+}
+
+/*corpo do site*/
+
+.img-destaque {
+	text-align: center;
+	margin-top: 30px; /*pra descolar do elementos*/
+}
+
+/* biografia containeir  */
+
+.biografia-container {
+	padding: 25px 0; /* espacamento emcima e embaixo(25px) e o resto 0  */
+	margin: 25px 0; /* e uma margem emcima e embaixo(25px) e o resto 0 */
+	border-top: 1px dashed #DDD; /*borda pontilhada em cima*/
+	border-bottom: : 1px dashed #DDD; /*borda pontilhada embaixo*/
+}
+
+
+/*  citacoes silvio santos */
+
+.frase-container {
+	background-color: #DDD;
+	padding: 30px; /* Aqui vai descolar */
+}
+
+.frase-container blockquote {
+	font-weight: 600;
+	font-size: 30px;	
+}
+
+.frase-container p{
+	font-style: italic;
+}
+
+/* Curiosidades */
+
+.curiosidades-container {
+	padding: 25px 0; /* espacamento emcima e embaixo(25px) e o resto 0  */
+	margin: 25px 0; /* e uma margem emcima e embaixo(25px) e o resto 0 */
+	border-top: 1px dashed #DDD; /*borda pontilhada em cima*/
+	border-bottom: : 1px dashed #DDD; /*borda pontilhada embaixo*/
+}
+
+.curiosidades-container li {
+	height: 25px; /* so pra eles descolarem um do outro */
+}
+
